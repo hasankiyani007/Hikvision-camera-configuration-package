@@ -1,0 +1,15 @@
+# Build output
+bin/*.exe
+service/*.exe
+*.o
+*.obj
+
+# Third-party binaries. Download MediaMTX from its own releases page.
+**/mediamtx.exe
+
+# Release archives
+*.zip
+
+# Generated at runtime. May contain camera credentials.
+bin/data/
+camera_discovery.json
